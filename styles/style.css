@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bkg: linear-gradient(to top, #0f0915, #050307);
+    --dark: #050307;
+    --text: #f9f6fe;
+    --accent: #4233e4;
+}
+
+.btn {
+    color: var(--text);
+    text-decoration: none;
+    padding: 0.3rem 1.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
